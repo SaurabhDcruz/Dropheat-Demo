@@ -1,3 +1,43 @@
+// Product card images
+import featImg1 from '../assets/featImg1.png';
+import featImg2 from '../assets/featImg2.png';
+import featImg3 from '../assets/featImg3.png';
+import featImg4 from '../assets/featImg4.png';
+import featImg5 from '../assets/featImg5.png';
+
+// Battle item images
+import LB1 from '../assets/LB1.png';
+import LB2 from '../assets/LB2.png';
+import LB3 from '../assets/LB3.png';
+import LB4 from '../assets/LB4.png';
+import LB5 from '../assets/LB5.png';
+import LB6 from '../assets/LB6.png';
+import LB7 from '../assets/LB7.png';
+import LB8 from '../assets/LB8.png';
+import LB9 from '../assets/LB9.png';
+import LB10 from '../assets/LB10.png';
+import LB11 from '../assets/LB11.png';
+import LB12 from '../assets/LB12.png';
+import LB13 from '../assets/LB13.png';
+import LB14 from '../assets/LB14.png';
+import LB15 from '../assets/LB15.png';
+import LB16 from '../assets/LB16.png';
+import LB17 from '../assets/LB17.png';
+import LB18 from '../assets/LB18.png';
+import LB19 from '../assets/LB19.png';
+import LB20 from '../assets/LB20.png';
+import LB21 from '../assets/LB21.png';
+import LB22 from '../assets/LB22.png';
+import LB23 from '../assets/LB23.png';
+
+// Live drop icons
+import image57 from '../assets/image57.png';
+import image58 from '../assets/image58.png';
+import image59 from '../assets/image59.png';
+import image60 from '../assets/image60.png';
+import image61 from '../assets/image61.png';
+import image62 from '../assets/image62.png';
+
 export interface Product {
   id: number;
   brand: string;
@@ -34,16 +74,16 @@ export interface ChatMessage {
 }
 
 export const productCards: Product[] = [
-  { id: 1, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: '../src/assets/featImg1.png', badges: ['New', 'Hot', 'Popular'] },
-  { id: 2, brand: 'Card Trader', category: 'Streetwear, Watches', price: 50.00, image: '../src/assets/featImg2.png', badges: ['Popular'] },
-  { id: 3, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: '../src/assets/featImg3.png', badges: [] },
-  { id: 4, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: '../src/assets/featImg4.png', badges: ['Hot'] },
-  { id: 5, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: '../src/assets/featImg5.png', badges: ['New'] },
-  { id: 6, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: '../src/assets/featImg1.png', badges: ['New', 'Hot', 'Popular'] },
-  { id: 7, brand: 'Card Trader', category: 'Streetwear, Watches', price: 50.00, image: '../src/assets/featImg2.png', badges: ['Popular'] },
-  { id: 8, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: '../src/assets/featImg3.png', badges: ['New'] },
-  { id: 9, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: '../src/assets/featImg4.png', badges: ['Hot'] },
-  { id: 10, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: '../src/assets/featImg5.png', badges: ['New'] },
+  { id: 1, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: featImg1, badges: ['New', 'Hot', 'Popular'] },
+  { id: 2, brand: 'Card Trader', category: 'Streetwear, Watches', price: 50.00, image: featImg2, badges: ['Popular'] },
+  { id: 3, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: featImg3, badges: [] },
+  { id: 4, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: featImg4, badges: ['Hot'] },
+  { id: 5, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: featImg5, badges: ['New'] },
+  { id: 6, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: featImg1, badges: ['New', 'Hot', 'Popular'] },
+  { id: 7, brand: 'Card Trader', category: 'Streetwear, Watches', price: 50.00, image: featImg2, badges: ['Popular'] },
+  { id: 8, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: featImg3, badges: ['New'] },
+  { id: 9, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: featImg4, badges: ['Hot'] },
+  { id: 10, brand: 'Crazy Designers', category: 'Streetwear, Watches', price: 390.00, image: featImg5, badges: ['New'] },
 ];
 
 export const battles: Battle[] = [
@@ -56,10 +96,7 @@ export const battles: Battle[] = [
       'https://i.pravatar.cc/150?u=3',
       'https://i.pravatar.cc/150?u=4'
     ], 
-    items: [
-      '../src/assets/LB1.png','../src/assets/LB2.png','../src/assets/LB3.png','../src/assets/LB4.png',
-      '../src/assets/LB5.png','../src/assets/LB6.png','../src/assets/LB7.png','../src/assets/LB8.png'
-    ] 
+    items: [LB1, LB2, LB3, LB4, LB5, LB6, LB7, LB8]
   },
 
   { 
@@ -71,10 +108,7 @@ export const battles: Battle[] = [
       'https://i.pravatar.cc/150?u=7',
       'https://i.pravatar.cc/150?u=8'
     ], 
-    items: [
-      '../src/assets/LB9.png','../src/assets/LB10.png','../src/assets/LB11.png','../src/assets/LB12.png',
-      '../src/assets/LB13.png','../src/assets/LB14.png','../src/assets/LB15.png','../src/assets/LB16.png'
-    ] 
+    items: [LB9, LB10, LB11, LB12, LB13, LB14, LB15, LB16]
   },
 
   { 
@@ -86,10 +120,7 @@ export const battles: Battle[] = [
       'https://i.pravatar.cc/150?u=11',
       'https://i.pravatar.cc/150?u=12'
     ], 
-    items: [
-      '../src/assets/LB17.png','../src/assets/LB18.png','../src/assets/LB19.png','../src/assets/LB20.png',
-      '../src/assets/LB21.png','../src/assets/LB22.png','../src/assets/LB23.png','../src/assets/LB1.png'
-    ] 
+    items: [LB17, LB18, LB19, LB20, LB21, LB22, LB23, LB1]
   },
 
   { 
@@ -101,10 +132,7 @@ export const battles: Battle[] = [
       'https://i.pravatar.cc/150?u=15',
       'https://i.pravatar.cc/150?u=16'
     ], 
-    items: [
-      '../src/assets/LB2.png','../src/assets/LB3.png','../src/assets/LB4.png','../src/assets/LB5.png',
-      '../src/assets/LB6.png','../src/assets/LB7.png','../src/assets/LB8.png','../src/assets/LB9.png'
-    ] 
+    items: [LB2, LB3, LB4, LB5, LB6, LB7, LB8, LB9]
   },
 
   { 
@@ -116,10 +144,7 @@ export const battles: Battle[] = [
       'https://i.pravatar.cc/150?u=19',
       'https://i.pravatar.cc/150?u=20'
     ], 
-    items: [
-      '../src/assets/LB10.png','../src/assets/LB11.png','../src/assets/LB12.png','../src/assets/LB13.png',
-      '../src/assets/LB14.png','../src/assets/LB15.png','../src/assets/LB16.png','../src/assets/LB17.png'
-    ] 
+    items: [LB10, LB11, LB12, LB13, LB14, LB15, LB16, LB17]
   },
 
   { 
@@ -131,10 +156,7 @@ export const battles: Battle[] = [
       'https://i.pravatar.cc/150?u=23',
       'https://i.pravatar.cc/150?u=24'
     ], 
-    items: [
-      '../src/assets/LB18.png','../src/assets/LB19.png','../src/assets/LB20.png','../src/assets/LB21.png',
-      '../src/assets/LB22.png','../src/assets/LB23.png','../src/assets/LB1.png','../src/assets/LB2.png'
-    ] 
+    items: [LB18, LB19, LB20, LB21, LB22, LB23, LB1, LB2]
   },
 ];
 
@@ -190,18 +212,18 @@ export interface LiveDrop {
 }
 
 export const liveDrops: LiveDrop[] = [
-  { id: 1, user: 'User123', price: 390.00, icon: './src/assets/image57.png', color: '#107C10' },
-  { id: 2, user: 'ProGamer', price: 50.00, icon: './src/assets/image58.png', color: '#FF4500' },
-  { id: 3, user: 'LuckyOne', price: 120.00, icon: './src/assets/image59.png', color: '#E91E63' },
-  { id: 4, user: 'Winner', price: 890.00, icon: './src/assets/image60.png', color: '#94a3b8' },
-  { id: 5, user: 'DropKing', price: 45.00, icon: './src/assets/image61.png', color: '#8B5CF6' },
-  { id: 6, user: 'Ace', price: 210.00, icon: './src/assets/image62.png', color: '#1A1B1E' },
-  { id: 7, user: 'Saurabh', price: 150.00, icon: './src/assets/image57.png', color: '#FFD700' },
-  { id: 8, user: 'Tiger', price: 75.00, icon: './src/assets/image58.png', color: '#00FF00' },
-  { id: 9, user: 'Gamer99', price: 15.00, icon: './src/assets/image59.png', color: '#3B82F6' },
-  { id: 10, user: 'Richie', price: 1200.00, icon: './src/assets/image60.png', color: '#FBBF24' },
-  { id: 11, user: 'HypeBeast', price: 450.00, icon: './src/assets/image61.png', color: '#EF4444' },
-  { id: 12, user: 'Collector', price: 300.00, icon: './src/assets/image62.png', color: '#10B981' },
+  { id: 1, user: 'User123', price: 390.00, icon: image57, color: '#107C10' },
+  { id: 2, user: 'ProGamer', price: 50.00, icon: image58, color: '#FF4500' },
+  { id: 3, user: 'LuckyOne', price: 120.00, icon: image59, color: '#E91E63' },
+  { id: 4, user: 'Winner', price: 890.00, icon: image60, color: '#94a3b8' },
+  { id: 5, user: 'DropKing', price: 45.00, icon: image61, color: '#8B5CF6' },
+  { id: 6, user: 'Ace', price: 210.00, icon: image62, color: '#1A1B1E' },
+  { id: 7, user: 'Saurabh', price: 150.00, icon: image57, color: '#FFD700' },
+  { id: 8, user: 'Tiger', price: 75.00, icon: image58, color: '#00FF00' },
+  { id: 9, user: 'Gamer99', price: 15.00, icon: image59, color: '#3B82F6' },
+  { id: 10, user: 'Richie', price: 1200.00, icon: image60, color: '#FBBF24' },
+  { id: 11, user: 'HypeBeast', price: 450.00, icon: image61, color: '#EF4444' },
+  { id: 12, user: 'Collector', price: 300.00, icon: image62, color: '#10B981' },
 ];
 
 export const chatMessages: ChatMessage[] = [
