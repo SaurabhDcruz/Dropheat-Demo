@@ -1,6 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
+import hero1 from '../../assets/hero1.png';
+import hero2 from '../../assets/hero2.png';
+import hero3 from '../../assets/hero3.png';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -54,13 +57,13 @@ export const Hero: React.FC = () => {
                 <div className="relative w-full h-full flex items-end justify-end">
                   <div className="relative w-full h-[90%]">
                     <img 
-                      src="../src/assets/hero2.png" 
+                      src={hero2}
                       alt="Luxury Items" 
                       className="absolute w-full right-10 bottom-0  h-auto object-contain z-10"
                       referrerPolicy="no-referrer"
                     />
                     <img 
-                      src="../src/assets/hero1.png" 
+                      src={hero1}
                       alt="Branded Box" 
                       className="absolute  drop-shadow-2xl right-0 bottom-3 w-full h-full object-contain object-right-bottom z-20"
                       referrerPolicy="no-referrer"
@@ -98,7 +101,7 @@ export const Hero: React.FC = () => {
         <div className="relative flex-1 mt-4">
           <div className="relative w-full h-full">
             <img 
-              src="../src/assets/hero3.png" 
+              src={hero3}
               alt="Referral" 
               className="w-full absolute -bottom-[24px] h-full object-contain drop-shadow-2xl z-0 scale-110 origin-bottom" 
               referrerPolicy="no-referrer" 
